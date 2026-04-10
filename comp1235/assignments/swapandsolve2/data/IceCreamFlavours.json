@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Chocolate",
+    "category": "Dairy",
+    "shortDescription": "Rich, dark chocolate ice cream",
+    "description": "All-natural chocolate ice cream made with rich, dark cocoa and a touch of fleur de sel sea salt for a deep, balanced flavor."
+  },
+  {
+    "name": "Vanilla",
+    "category": "Dairy",
+    "shortDescription": "Smooth, classic vanilla ice cream",
+    "description": "All-natural vanilla ice cream offering a smooth, rich flavor with no artificial additives or preservatives."
+  },
+  {
+    "name": "Strawberry",
+    "category": "Dairy",
+    "shortDescription": "Sweet strawberry ice cream made with fresh berries",
+    "description": "All-natural ice cream blended with fresh, locally grown strawberries picked at peak ripeness."
+  },
+  {
+    "name": "Cherry Vanilla",
+    "category": "Dairy",
+    "shortDescription": "Creamy vanilla ice cream with juicy cherries",
+    "description": "All-natural ice cream blended with ripe, juicy cherries and smooth vanilla for a perfectly balanced flavor."
+  },
+  {
+    "name": "Butter Pecan",
+    "category": "Non-Dairy",
+    "shortDescription": "Rich, buttery pecan ice cream",
+    "description": "All-natural Non-Dairy ice cream blended with roasted, buttery pecans for a rich, smooth flavor with a satisfying crunch."
+  },
+  {
+    "name": "Mint Chocolate Chip",
+    "category": "Dairy",
+    "shortDescription": "Cool mint ice cream with chocolate chips",
+    "description": "All-natural ice cream blended with cool mint and rich chocolate chips for a refreshing, smooth flavor with bits of chocolate in every bite."
+  },
+  {
+    "name": "Cookie Dough",
+    "category": "Dairy",
+    "shortDescription": "Creamy ice cream with chunks of cookie dough",
+    "description": "Rich, creamy ice cream packed with chunks of fresh home-baked cookie dough. Gluten-free and egg-free."
+  }
+]

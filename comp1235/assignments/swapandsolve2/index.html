@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ocean Swirl</title>
+    <link rel="stylesheet" href="assets/css/ice.css" />
+    <link rel="icon" href="assets/images/favicon.ico" />
+  </head>
+  <body>
+    <!--  Header Section  -->
+    <header>
+
+      <!-- Nav Bar -->
+  <nav class="navbar">
+    <img
+      src="assets/images/logo.png"
+      alt="Ocean Swirl Logo"
+      class="logo"
+    />
+
+    <ul class="nav-links">
+      <li><a href="#why">Why Us</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#combo">Create Combo</a></li>
+    </ul>
+  </nav>
+
+      <!--  Hero Text Overlay  -->
+      <section class="hero-text">
+        <h1>Wasaga Beach Ice Cream</h1>
+        <p>Serving Sweet Memories in Wasaga Beach</p>
+      </section>
+    </header>
+    <!--  Main Content -->
+    <main>
+      <section id="why">
+        <h2>Why Choose Ocean Swirl</h2>
+        <!--        Why Choose Us (Flexbox Layout)  -->
+        <section class="why-grid">
+          <article>
+            <h3>Fresh Ingredients</h3>
+            <p>Made daily with premium dairy.</p>
+          </article>
+
+          <article>
+            <h3>Beach Location</h3>
+            <p>Right near the shoreline!</p>
+          </article>
+
+          <article>
+            <h3>Family Owned</h3>
+            <p>Local and proud since 1998.</p>
+          </article>
+        </section>
+      </section>
+      <!-- Ice Cream Gallery (Grid Layout) -->
+      <section id="gallery">
+        <h2>Our Ice Creams</h2>
+
+        <section class="gallery-grid">
+          <figure class="featured">
+            <img src="assets/images/featured.jpg" alt="Location featured" />
+          </figure>
+
+          <figure>
+            <img src="assets/images/ice6.png" />
+          </figure> 
+
+          <figure>
+            <img src="assets/images/ice1.png" />
+          </figure>
+
+          <figure>
+            <img src="assets/images/ice2.png" />
+          </figure>
+
+          <figure>
+            <img src="assets/images/ice3.png" />
+          </figure>
+
+          <figure>
+            <img src="assets/images/ice4.jpg" />
+          </figure>
+
+          <figure>
+            <img src="assets/images/ice5.png" />
+          </figure>
+        </section>
+      </section>
+
+      <!-- Ice Cream Combo Generator (JavaScript) -->
+      <section id="combo">
+        <h2>Create Your Combo</h2>
+        <button id="combo-button">Choose for me</button>
+        <label for="flavor">Choose Flavor:</label>
+        <select id="flavor">
+          <option value="">Select</option>
+        </select>
+
+        <label for="topping">Choose toppings:</label>
+
+        <select id="topping">
+          <option value="">Select</option>
+        </select>
+          <div class="wrapper">
+            <output id="result"></output>
+          </div>
+      </section>
+    </main>
+    <!--   FOOTER (Flexbox Layout) -->
+    <footer>
+      <aside>Ocean Swirl</aside>
+      <aside>© 2026 Ocean Swirl. All Rights Reserved.</aside>
+      <aside>Thank you for supporting our family business!</aside>
+    </footer>
+
+    <script src="scripts/ice.js"></script>
+  </body>
+</html>

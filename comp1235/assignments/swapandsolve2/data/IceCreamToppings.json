@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Chocolate Sauce",
+    "type": "Topping",
+    "shortDescription": "rich chocolate sauce",
+    "description": "Rich, velvety chocolate sauce that adds a smooth, indulgent finish to every scoop.",
+    "AllergenWarning": false
+  },
+  {
+    "name": "Sprinkles",
+    "type": "Topping",
+    "shortDescription": "colorful sweet sprinkles",
+    "description": "Colorful, sweet sprinkles that add a playful touch and a hint of crunch.",
+    "AllergenWarning": false
+  },
+  {
+    "name": "Cookie Crumble",
+    "type": "Topping",
+    "shortDescription": "buttery cookie crumble",
+    "description": "Crushed cookie pieces that bring a buttery, crumbly texture and a touch of sweetness.",
+    "AllergenWarning": true
+  },
+  {
+    "name": "Caramel",
+    "type": "Topping",
+    "shortDescription": "smooth golden caramel",
+    "description": "Smooth, golden caramel with a deep, buttery sweetness that melts into every bite.",
+    "AllergenWarning": false
+  },
+  {
+    "name": "Whipped Cream",
+    "type": "Topping",
+    "shortDescription": "light whipped cream",
+    "description": "Light, airy whipped cream that adds a soft, creamy finish.",
+    "AllergenWarning": true
+  },
+  {
+    "name": "Crunchy Nuts",
+    "type": "Topping",
+    "shortDescription": "roasted crunchy nuts",
+    "description": "Roasted nuts that add a rich, nutty flavor and a satisfying crunch.",
+    "AllergenWarning": true
+  },
+  {
+    "name": "Banana Chunks",
+    "type": "Topping",
+    "shortDescription": "fresh banana chunks",
+    "description": "Fresh banana pieces that bring a naturally sweet and creamy texture.",
+    "AllergenWarning": false
+  }
+]
