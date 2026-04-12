@@ -4,14 +4,43 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
 body {
   font-family: Arial, sans-serif;
   background-color: #fff6fb;
   color: #333;
   line-height: 1.6;
 }
-
+#loading{
+    display: block;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(224deg, #ffcacb, #aec4ff);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    z-index: 100;
+    p {
+        align-content: center;
+        display: block;
+        height: 100%;
+        text-align: center;
+        font-size: 36px;
+        color: cornsilk;
+        font-weight: bold;
+        text-shadow: 1px 1px 11px black;
+    }
+}
 /* HEADER SECTION */
 
 header {
@@ -31,7 +60,22 @@ header {
 
   padding: 120px 20px 40px 0;
 }
-
+#forecastData {
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: repeating-linear-gradient(to right, #ff8a8e52, #86a6ff52);
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 5px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+#forecastIcon img{
+    width: 64px;
+    height: auto;
+}
 .hero-text {
   background: rgba(0, 0, 0, 0.55);
   padding: 30px;
