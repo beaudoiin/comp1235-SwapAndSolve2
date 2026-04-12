@@ -12,6 +12,7 @@
     <link rel="icon" href="assets/images/favicon.ico" />
   </head>
   <body>
+  <div id="loading"><p>Please wait, Ocean Swirl is loading... 🍦</p></div>
     <!--  Header Section  -->
     <header>
 
@@ -34,6 +35,19 @@
       <section class="hero-text">
         <h1>Wasaga Beach Ice Cream</h1>
         <p>Serving Sweet Memories in Wasaga Beach</p>
+        <article id="forecastData">
+            <div id="currentTemp">
+                <p>Current Temperature: <span id="currentTempValue"></span>&deg;C</p>
+                <p>Min Temperature: <span id="minTempValue"></span>&deg;C</p>
+                <p>Max Temperature: <span id="maxTempValue"></span>&deg;C</p>
+                <p>Current Percipitation: <span id="currentPercipValue"></span></p>
+            </div>
+            <div id="forecastIcon">
+                <img src="" alt="Current weather icon" />
+            </div>
+
+        </article>
+          <p id="weatherPrompt">Loading weather data...</p>
       </section>
     </header>
     <!--  Main Content -->
