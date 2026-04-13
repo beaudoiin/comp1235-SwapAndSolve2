@@ -1,19 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const loading   = document.querySelector("#loading") as HTMLDivElement;
-    loading.remove();
-    //will remove this
-    const params : URLSearchParams = new URLSearchParams(window.location.search);
-    let delay = params.get("delay");
-    // strip non-numbers
-    delay = delay ? delay.replace(/\D/g, "") : "0";
-    const delayMs : number = Number(delay) || 0;
-    if (delayMs > 0) {
+    const loading = document.querySelector("#loading") as HTMLDivElement;
         setTimeout(() => {
-            console.log("Works after delay:", delayMs);
             loading.remove();
-        }, delayMs);
-    }else
-        loading.remove();
+        }, 10000);
 
     // ICE CREAM COMBO DATA (Object)
     // All flavor + topping combinations stored in one place
