@@ -1,7 +1,6 @@
 "use strict";
 document.addEventListener("DOMContentLoaded", () => {
     const loading = document.querySelector("#loading");
-    loading.remove();
     //will remove this
     const params = new URLSearchParams(window.location.search);
     let delay = params.get("delay");
