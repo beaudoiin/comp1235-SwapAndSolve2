@@ -68,7 +68,7 @@ header {
     background: repeating-linear-gradient(to right, #ff8a8e52, #86a6ff52);
     border-radius: 15px;
     padding: 5px;
-    margin-top: 5px;
+    margin: 10px 0;
     opacity: 0;
     transition: opacity 1s;
 }
@@ -81,7 +81,6 @@ header {
   padding: 30px;
   border-radius: 16px;
   backdrop-filter: blur(4px);
-
   width: 100%;
   max-width: 700px;
 }
